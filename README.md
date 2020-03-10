@@ -3,8 +3,8 @@ Create a survivorship plot in R with natural mortality (M) and optional culling 
 
 Examples:
 
-
-    Survivorship_plot("Brevoortia tyrannus", M = c(0.37, 0.5, 1.17), F.Adult = 0, extraYears = 10)
+  
+    Survivorship_plot("Brevoortia tyrannus", M = c(0.37, 0.5, 1.17), F.Adult = 0, extraYears = 10) # No fishing mortality
 
     Survivorship_plot("Brevoortia tyrannus", M = c(0.37, 0.5, 1.17), F.Adult = 0.5, ageFishingStart = 2, ageMax = 4)
 
