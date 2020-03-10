@@ -1,4 +1,9 @@
 
+Install into R with:
+
+    JRWToolBox::gitAFile("John-R-Wallace-NOAA/Survivorship_plot_in_R/master/R/Survivorship_plot.R")
+
+
 Create a survivorship plot in R with natural mortality (M) and optional harvesting (e.g. fishing) mortality on adults (F.Adult).
 Includes (by default) an estimate of M from the R package FishLife (https://github.com/James-Thorson-NOAA/FishLife) which is required for FishLife's estimate.
 
