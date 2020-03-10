@@ -14,6 +14,7 @@ Survivorship_plot <- function(genSpp, Years = 5, extraYears = 5, M = NULL, F.Adu
    }
 
    fishlife <- function (species) {
+       # Based on a function from Jason Cope of the same name.
        if (species != "") {
            spp <- sort(unique(species))
            fl <- data.frame(species = spp, linf_cm = NA, k = NA, 
