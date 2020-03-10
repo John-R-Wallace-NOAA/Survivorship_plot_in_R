@@ -5,7 +5,7 @@ Install into R with:
 
 
 Create a survivorship plot in R with natural mortality (M) and optional harvesting (e.g. fishing) mortality on adults (F.Adult).
-Includes (by default) an estimate of M from the R package FishLife (https://github.com/James-Thorson-NOAA/FishLife) which is required for FishLife's estimate.
+Includes (by default) an estimate of M from the R package FishLife (https://github.com/James-Thorson-NOAA/FishLife) which is required for FishLife's estimate. (The 'lattice' R package is also used.)
 
 Examples:
 
