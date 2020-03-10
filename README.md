@@ -16,5 +16,5 @@ Examples:
 View the example figure with this direct link:
 
 
-   https://raw.githubusercontent.com/John-R-Wallace-NOAA/Survivorship_plot_in_R/master/Survivorship_no_Fishing_Mortality.jpg
+   https://raw.githubusercontent.com/John-R-Wallace-NOAA/Survivorship_plot_in_R/master/Survivorship_no_Fishing_Mortality.png
 
