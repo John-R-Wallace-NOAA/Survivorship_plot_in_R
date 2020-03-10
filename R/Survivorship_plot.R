@@ -70,8 +70,8 @@ Survivorship_plot <- function(genSpp, Years = 5, extraYears = 5, M = NULL, F.Adu
    for ( i in 1:length(M))
         yearSurv <- rbind(yearSurv, data.frame(Year = 1:N, M = paste0('M = ', round(M[i], 5)), Survivorship = Survivorship(N, F = F.Adult, ageFishingStart = ageFishingStart, M = M[i])))
   
-   
-   lattice::xyplot(Survivorship ~ Year, groups = M, data = yearSurv, auto = TRUE, type = 'o', lwd = 2, cex = 1.25, panel = function(...) { panel.xyplot(...); 
+   library(lattice)
+   xyplot(Survivorship ~ Year, groups = M, data = yearSurv, auto = TRUE, type = 'o', lwd = 2, cex = 1.25, panel = function(...) { panel.xyplot(...); 
         panel.abline(v = ageMax, col = 'cyan', lwd = 2); panel.abline(h = 0, col = 'grey' ); panel.text(ageMax - 0.8, 0.80, "Max Age") }, ...)
    
 }
